@@ -1,0 +1,118 @@
+{
+    "supermercado A": [
+      {
+        "id": 1,
+        "nombre": "Alcampo",
+        "direccion": "Calle de Antonio López, 109",
+        "geolocalizacion": [
+          "40°23'28.9 N",
+          "3°42'7.4 E"
+        ],
+        "lugar": "Madrid",
+        "horarioApertura": "Lunes a Domingo de 9 - a 22h",
+        "productos": [
+          {
+            "id": "unoAlcampo",
+            "nombre": "leche semidesnatada",
+            "seccion": "lácteos",
+            "descripcion": "leche semidesnatada asturiana",
+            "origen": "España",
+            "oferta": true,
+            "vigenciaOferta": [
+                "31/05/23",
+                "13/06/23"
+              ],   
+            "pvp": 1.99,
+            "pvpRebajado": 1.09,
+            "formato": "1 litro",
+            "habitual": true,
+            "adquirido": true
+          },
+          {
+            "id": "dosAlcampo",
+            "nombre": "Huevos camperos",
+            "seccion": "lácteos",
+            "descripcion": "Huevos camperos clase XL",
+            "origen": "España",
+            "oferta": false,
+            "pvp": 4.09,
+            "formato": "10 uds",
+            "habitual": true,
+            "adquirido": false
+          },
+          {
+            "id": "tresAlcampo",
+            "nombre": "barra de pan rizado",
+            "seccion": "panadería",
+            "descripcion": "barra de pan rizado alcampo",
+            "origen": "España",
+            "vigenciaOferta": [
+                "31/05/23",
+                "13/06/23"
+              ],   
+            "pvp": 2.45,
+            "pvpRebajado": 1.99,
+            "formato": "480 gramos",
+            "habitual": true,
+            "adquirido": true
+          }
+        ]
+      }
+    ],
+    "supermercado B": [
+      {
+        "id": 2,
+        "nombre": "Mercadona",
+        "direccion": "Calle Antonio López, 117",
+        "geolocalizacion": [
+          "40°23'22.0 N",
+          "3°42'1.9 E"
+        ],
+        "lugar": "Madrid",
+        "horarioApertura": "Lunes a Sábado de 9 - 21:30h",
+        "productos": [
+          {
+            "id": "unoMercadona",
+            "nombre": "Guacamole",
+            "seccion": "verduras",
+            "descripcion": "guacamole hacendado fresh",
+            "origen": "España",
+            "oferta": true,
+            "vigenciaOferta": [
+                "31/05/23",
+                "13/06/23"
+              ],   
+            "pvp": 1.59,
+            "pvpRebajado": 1.15,
+            "formato": "tarrina 200gramos",
+            "habitual": false,
+            "adquirido": true
+          },
+          {
+            "id": "dosMercadona",
+            "nombre": "salmon ahumado",
+            "seccion": "pescadería",
+            "descripcion": "salmón ahumado",
+            "origen": "Noruega",
+            "oferta": false,
+            "pvp": 5.15,
+            "formato": "500 gramos",
+            "habitual": false,
+            "adquirido": false
+          },
+          {
+            "id": "tresMercadona",
+            "nombre": "aceite de oliva",
+            "seccion": "conservas",
+            "descripcion": "aceite de oliva virgen extra hacendado",
+            "origen": "España",
+            "oferta": false,
+            "pvp": 6.05,
+            "formato": "1 L.",
+            "habitual": true,
+            "adquirido": true
+          }
+            ]
+      }
+    ]
+  }

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <supermercado A>
+    <id>1</id>
+    <nombre>Alcampo</nombre>
+    <direccion>Calle de Antonio López, 109</direccion>
+    <geolocalizacion>40°23'28.9 N</geolocalizacion>
+    <geolocalizacion>3°42'7.4 E</geolocalizacion>
+    <lugar>Madrid</lugar>
+    <horarioApertura>Lunes a Domingo de 9 - a 22h</horarioApertura>
+    <productos>
+      <id>unoAlcampo</id>
+      <nombre>leche semidesnatada</nombre>
+      <seccion>lácteos</seccion>
+      <descripcion>leche semidesnatada asturiana</descripcion>
+      <origen>España</origen>
+      <oferta>true</oferta>
+      <vigenciaOferta>31/05/23</vigenciaOferta>
+      <vigenciaOferta>13/06/23</vigenciaOferta>
+      <pvp>1.99</pvp>
+      <pvpRebajado>1.09</pvpRebajado>
+      <formato>1 litro</formato>
+      <habitual>true</habitual>
+      <adquirido>true</adquirido>
+    </productos>
+    <productos>
+      <id>dosAlcampo</id>
+      <nombre>Huevos camperos</nombre>
+      <seccion>lácteos</seccion>
+      <descripcion>Huevos camperos clase XL</descripcion>
+      <origen>España</origen>
+      <oferta>false</oferta>
+      <pvp>4.09</pvp>
+      <formato>10 uds</formato>
+      <habitual>true</habitual>
+      <adquirido>false</adquirido>
+    </productos>
+    <productos>
+      <id>tresAlcampo</id>
+      <nombre>barra de pan rizado</nombre>
+      <seccion>panadería</seccion>
+      <descripcion>barra de pan rizado alcampo</descripcion>
+      <origen>España</origen>
+      <vigenciaOferta>31/05/23</vigenciaOferta>
+      <vigenciaOferta>13/06/23</vigenciaOferta>
+      <pvp>2.45</pvp>
+      <pvpRebajado>1.99</pvpRebajado>
+      <formato>480 gramos</formato>
+      <habitual>true</habitual>
+      <adquirido>true</adquirido>
+    </productos>
+  </supermercado A>
+  <supermercado B>
+    <id>2</id>
+    <nombre>Mercadona</nombre>
+    <direccion>Calle Antonio López, 117</direccion>
+    <geolocalizacion>40°23'22.0 N</geolocalizacion>
+    <geolocalizacion>3°42'1.9 E</geolocalizacion>
+    <lugar>Madrid</lugar>
+    <horarioApertura>Lunes a Sábado de 9 - 21:30h</horarioApertura>
+    <productos>
+      <id>unoMercadona</id>
+      <nombre>Guacamole</nombre>
+      <seccion>verduras</seccion>
+      <descripcion>guacamole hacendado fresh</descripcion>
+      <origen>España</origen>
+      <oferta>true</oferta>
+      <vigenciaOferta>31/05/23</vigenciaOferta>
+      <vigenciaOferta>13/06/23</vigenciaOferta>
+      <pvp>1.59</pvp>
+      <pvpRebajado>1.15</pvpRebajado>
+      <formato>tarrina 200gramos</formato>
+      <habitual>false</habitual>
+      <adquirido>true</adquirido>
+    </productos>
+    <productos>
+      <id>dosMercadona</id>
+      <nombre>salmon ahumado</nombre>
+      <seccion>pescadería</seccion>
+      <descripcion>salmón ahumado</descripcion>
+      <origen>Noruega</origen>
+      <oferta>false</oferta>
+      <pvp>5.15</pvp>
+      <formato>500 gramos</formato>
+      <habitual>false</habitual>
+      <adquirido>false</adquirido>
+    </productos>
+    <productos>
+      <id>tresMercadona</id>
+      <nombre>aceite de oliva</nombre>
+      <seccion>conservas</seccion>
+      <descripcion>aceite de oliva virgen extra hacendado</descripcion>
+      <origen>España</origen>
+      <oferta>false</oferta>
+      <pvp>6.05</pvp>
+      <formato>1 L.</formato>
+      <habitual>true</habitual>
+      <adquirido>true</adquirido>
+    </productos>
+  </supermercado B>
